@@ -1,0 +1,29 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    background-color: white; 
+    font-family: Arial, sans-serif; 
+  }
+
+
+#root {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.NavBar {
+  background-color: #f8f8f8;
+  padding: 10px; 
+}
+
+.ItemListContainer {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
